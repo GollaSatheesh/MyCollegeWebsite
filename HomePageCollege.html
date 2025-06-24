@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SVPCET</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-title {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-title img {
+      height: 40px;
+      width: auto;
+      border-radius: 4px;
+    }
+
+    .logo-title h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      opacity: 0.5;
+      transition: transform 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+    }
+
+    nav a:hover {
+      transform: scale(1.1);
+      color: #ffd700;
+      opacity: 1;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                  url('http://svpcet.org/img/infra/college%201.jpeg') center/cover no-repeat;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero h2, .hero p {
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .hero h2:hover, .hero p:hover {
+      transform: scale(1.1);
+      color: #ffd700;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-title">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.Y3kxafX7xOYY4kyuHg0GbgAAAA&pid=Api&P=0&h=180" alt="SVPCET Logo" />
+      <h1>SVPCET </h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="AboutUsPage.html">About</a>
+      <a href="StudentInfo.html">Student Info</a>
+      <a href="CoursesPage.html">Courses</a>
+      <a href="ContactPage.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to SVPCET College</h2>
+    <p>Your Gateway to Quality Education and Innovation</p>
+  </section>
+
+</body>
+</html>
