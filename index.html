@@ -47,6 +47,7 @@
       display: flex;
       gap: 1rem;
       flex-wrap: wrap;
+      align-items: center;
     }
 
     nav a {
@@ -63,9 +64,24 @@
       opacity: 1;
     }
 
+    .register-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .register-button:hover {
+      background-color: #45a049;
+    }
+
     .hero {
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                  url('http://svpcet.org/img/infra/college%201.jpeg') center/cover no-repeat;
+                  url('imagelinkpastehere') center/cover no-repeat;
       color: white;
       padding: 6rem 2rem;
       text-align: center;
@@ -110,6 +126,7 @@
       <a href="StudentInfo.html">Student Info</a>
       <a href="CoursesPage.html">Courses</a>
       <a href="ContactPage.html">Contact</a>
+      <a href="loginpage.html" class="register-button">Login</a>
     </nav>
   </header>
 
